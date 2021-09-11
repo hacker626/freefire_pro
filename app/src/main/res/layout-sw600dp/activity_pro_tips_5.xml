@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+
+
+    tools:context=".pro_tips">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="#5   App to Use Hack FreeFire"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="222dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+
+        android:src="@drawable/freefire_wall" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/tips_5"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            >
+            <Button
+                android:id="@+id/go_back_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:fontFamily="casual"
+                android:text="Previous"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="40dp"
+
+                />
+
+            <Button
+                android:id="@+id/go_next_5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="10dp"
+
+                android:layout_weight="1"
+                android:backgroundTint="@color/white"
+                android:fontFamily="casual"
+                android:text="Next"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
